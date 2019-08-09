@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		1063826F81F9251BC8B8A326 /* Pods_TNBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FF36F55FFBC5D6CFF961F0 /* Pods_TNBaseKit.framework */; };
 		35E47BAB6FD1ADCBA4501B5D /* Pods_STBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258F7A2FD97A725553B48875 /* Pods_STBaseKit.framework */; };
-		387B0322213F7D7F00ABCB3C /* PolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B0321213F7D7F00ABCB3C /* PolicyView.swift */; };
-		387B0323213F7DEB00ABCB3C /* PolicyView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 387B0321213F7D7F00ABCB3C /* PolicyView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		38FEAA9E2148B7C5005FE85B /* PolicyReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAA9D2148B7C5005FE85B /* PolicyReq.swift */; };
+		387B0322213F7D7F00ABCB3C /* LocalBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B0321213F7D7F00ABCB3C /* LocalBundle.swift */; };
+		387B0323213F7DEB00ABCB3C /* LocalBundle.swift in Headers */ = {isa = PBXBuildFile; fileRef = 387B0321213F7D7F00ABCB3C /* LocalBundle.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		38FEAA9E2148B7C5005FE85B /* AboutReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FEAA9D2148B7C5005FE85B /* AboutReq.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,8 +19,8 @@
 		258F7A2FD97A725553B48875 /* Pods_STBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		387B02F5213E3A9200ABCB3C /* STBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		387B02F9213E3A9200ABCB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		387B0321213F7D7F00ABCB3C /* PolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyView.swift; sourceTree = "<group>"; };
-		38FEAA9D2148B7C5005FE85B /* PolicyReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyReq.swift; sourceTree = "<group>"; };
+		387B0321213F7D7F00ABCB3C /* LocalBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalBundle.swift; sourceTree = "<group>"; };
+		38FEAA9D2148B7C5005FE85B /* AboutReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutReq.swift; sourceTree = "<group>"; };
 		5158662EBF8A2EB4C679102C /* Pods-STBaseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STBaseKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-STBaseKit/Pods-STBaseKit.release.xcconfig"; sourceTree = "<group>"; };
 		5BE5E56E22ABD1170B03F96A /* Pods-TNBaseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNBaseKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TNBaseKit/Pods-TNBaseKit.debug.xcconfig"; sourceTree = "<group>"; };
 		8773398733CBDF973102A8C9 /* Pods-STBaseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STBaseKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STBaseKit/Pods-STBaseKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				387B02F9213E3A9200ABCB3C /* Info.plist */,
-				387B0321213F7D7F00ABCB3C /* PolicyView.swift */,
-				38FEAA9D2148B7C5005FE85B /* PolicyReq.swift */,
+				387B0321213F7D7F00ABCB3C /* LocalBundle.swift */,
+				38FEAA9D2148B7C5005FE85B /* AboutReq.swift */,
 			);
 			path = STBaseKit;
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387B0323213F7DEB00ABCB3C /* PolicyView.swift in Headers */,
+				387B0323213F7DEB00ABCB3C /* LocalBundle.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,8 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387B0322213F7D7F00ABCB3C /* PolicyView.swift in Sources */,
-				38FEAA9E2148B7C5005FE85B /* PolicyReq.swift in Sources */,
+				387B0322213F7D7F00ABCB3C /* LocalBundle.swift in Sources */,
+				38FEAA9E2148B7C5005FE85B /* AboutReq.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
